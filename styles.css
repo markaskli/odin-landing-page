@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 100vh;
+    height: 130vh;
 }
 
 ul {
@@ -37,19 +37,14 @@ a {
 
 .footer {
     background-color: #1F2937;
-    height: 50px;
+    height: 5%;
     color:#F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.middle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-}
 
 .upper {
     display: flex;
@@ -101,7 +96,8 @@ a {
 }
 
 .middle-upper {
-    height: 25%;
+    height: 40%;
+    
 }
 
 .middle {
@@ -109,17 +105,27 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 50px;
+    max-height: 20%;
+    justify-items: center;
 }
 
 .paragraph {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    max-width: 60%;
+    width: 70%;
+    font-weight: lighter;
+    margin: 0;
 }
 
 .author {
     font-weight: 700;
+    justify-items: flex-start;
+    margin: 0;
+    align-self:flex-end;
+    padding-right: 15%;
+    
 }
 
 .container {
@@ -130,7 +136,7 @@ a {
     justify-content: space-around;
     align-items: center;
     gap: 36px;
-    padding: 25px;
+    padding: 40px 70px;
 }
 
 .text-container {
@@ -150,7 +156,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25%;
+    height: 10%;
     padding: 5%;
 }
 
@@ -167,4 +173,35 @@ a {
     border-radius: 5px;
     border-style: solid;
     padding: 3px 20px;
+}
+
+.middle-heading {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.image {
+    border-color: #1F2937;
+    width: 144px;
+    height: 144px;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.image-text {
+    max-width: 144px;
 }
