@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 
 ul {
@@ -36,6 +37,11 @@ a {
 
 .footer {
     background-color: #1F2937;
+    height: 50px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle {
@@ -92,4 +98,58 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     margin: 0;
+}
+
+.middle {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 5%;
+    padding-top: 32px;
+}
+
+.paragraph {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 60%;
+}
+
+.author {
+    font-weight: 700;
+}
+
+.container {
+    background-color: #3882F6;
+    border-radius: 12%;
+    border-style: none;
+    max-width: 70ch;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 36px;
+}
+
+.text-container {
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container-para {
+    color: white;
+    margin: 0;
+}
+
+.middle-lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
